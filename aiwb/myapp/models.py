@@ -5,8 +5,8 @@ class Tag(models.Model):
 
     def to_dict(self):
         return {
-            "id": this.id,
-            "name": this.name,
+            "id": self.id,
+            "name": self.name,
         }
 
 class TextContent(models.Model):
@@ -14,6 +14,6 @@ class TextContent(models.Model):
 
     def to_dict(self):
         return {
-            "id": this.id,
-            "content": this.content,
+            "id": self.id,
+            "content": self.content,
         }
